@@ -124,8 +124,7 @@ The complete MATLAB Simulink model contains the electrical load, measurement blo
 
 Add your main Simulink screenshot here:
 
-![APFC Simulink Model]([Uploading Screenshot 2026-08-26 at 8.59.25 PM.png…]()
-)
+![APFC Simulink Model](images/apfc_model.png)
 
 *Figure: Complete Automatic Power Factor Correction Simulink model.*
 
@@ -188,19 +187,6 @@ The model can be further developed by:
 * Implementing the controller on a PLC or microcontroller.
 * Developing an IoT-based power monitoring system.
 * Comparing APFC performance with different industrial load profiles.
-
----
-
-## ▶️ How to Run
-
-1. Install **MATLAB** with the required Simulink/Simscape Electrical components.
-2. Clone or download this repository.
-3. Open MATLAB.
-4. Open the `APFC_Model.slx` file.
-5. Run the simulation.
-6. Observe the power factor, capacitor switching, current, voltage, and other measured parameters using the Scope blocks.
-7. Analyze the system response before and after APFC operation.
-
 ---
 
 ## 🧠 Skills Demonstrated
@@ -235,4 +221,3 @@ Electrical Engineering Student
 ## ⭐ Project Highlights
 
 > **Designed and simulated an Automatic Power Factor Correction system for a 500 kW, 415 V three-phase industrial load, using staged capacitor-bank switching to improve the power factor toward 0.95 and reduce estimated I²R distribution losses.**
-
